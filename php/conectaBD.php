@@ -1,7 +1,7 @@
 
 <?php
 try {
-  $conn = new PDO('mysql:host=localhost;dbname=lilocapersonalizados', 'root', '');
+  $conn = new PDO('mysql:host=localhost;dbname=liloca', 'root', '');
   // echo 'Conectou';
 
 } catch(PDOException $e) {
